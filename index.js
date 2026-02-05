@@ -1,3 +1,4 @@
+"use strict";
 // function checkDigits(n: number): boolean {
 //     const tens = (n - n % 10) / 10;
 //     const ones = n - tens * 10;
@@ -159,8 +160,8 @@
 //   NoldanYuzgacha();
 // }
 // NoldanYuzgacha();
-var s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-var a = [];
+const s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+const a = [];
 function NoldanYuzgacha() {
     if (a.length === s.length) {
         console.log("tugadii");
